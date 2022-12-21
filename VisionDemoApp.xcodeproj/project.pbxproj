@@ -21,7 +21,7 @@
 		0FC5418F2953307A00B1C504 /* RecognizedTextDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5418E2953307A00B1C504 /* RecognizedTextDataSource.swift */; };
 		0FC541912953484300B1C504 /* ScanOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC541902953484300B1C504 /* ScanOptions.swift */; };
 		0FC5419329534A9C00B1C504 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FC5419229534A9C00B1C504 /* README.md */; };
-		0FC541962953522B00B1C504 /* app-demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0FC541952953522B00B1C504 /* app-demo.gif */; };
+		0FC54198295355C400B1C504 /* app-demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0FC54197295355C400B1C504 /* app-demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		0FC5418E2953307A00B1C504 /* RecognizedTextDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizedTextDataSource.swift; sourceTree = "<group>"; };
 		0FC541902953484300B1C504 /* ScanOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanOptions.swift; sourceTree = "<group>"; };
 		0FC5419229534A9C00B1C504 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0FC541952953522B00B1C504 /* app-demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "app-demo.gif"; sourceTree = "<group>"; };
+		0FC54197295355C400B1C504 /* app-demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "app-demo.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +172,7 @@
 		0FC54194295351B700B1C504 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				0FC541952953522B00B1C504 /* app-demo.gif */,
+				0FC54197295355C400B1C504 /* app-demo.gif */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FC541642953211400B1C504 /* LaunchScreen.storyboard in Resources */,
-				0FC541962953522B00B1C504 /* app-demo.gif in Resources */,
+				0FC54198295355C400B1C504 /* app-demo.gif in Resources */,
 				0FC541612953211400B1C504 /* Assets.xcassets in Resources */,
 				0FC5419329534A9C00B1C504 /* README.md in Resources */,
 				0FC5415F2953211300B1C504 /* Main.storyboard in Resources */,
