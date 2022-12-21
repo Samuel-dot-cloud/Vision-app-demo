@@ -28,4 +28,4 @@ I added some screenshots in the `screenshots` folder, in the root directory of t
 
 GIF 
 --- 
-<img src="https://github.com/jumaallan/apollo-agriculture/blob/master/screenshots/weather_light.png" width="280"/> |
+<img src="https://github.com/Samuel-dot-cloud/Vision-app-demo/blob/main/Screenshots/app-demo.gif" width="280"/> |

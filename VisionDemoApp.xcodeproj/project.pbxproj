@@ -92,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				0FC541562953211300B1C504 /* VisionDemoApp */,
+				0FC5419229534A9C00B1C504 /* README.md */,
 				0FC54194295351B700B1C504 /* Screenshots */,
 				0FC5416D2953211400B1C504 /* VisionDemoAppTests */,
 				0FC541772953211400B1C504 /* VisionDemoAppUITests */,
@@ -119,7 +120,6 @@
 				0FC541592953211300B1C504 /* SceneDelegate.swift */,
 				0FC541602953211400B1C504 /* Assets.xcassets */,
 				0FC541652953211400B1C504 /* Info.plist */,
-				0FC5419229534A9C00B1C504 /* README.md */,
 			);
 			path = VisionDemoApp;
 			sourceTree = "<group>";
