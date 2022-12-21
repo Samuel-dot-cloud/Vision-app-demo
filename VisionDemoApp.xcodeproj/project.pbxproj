@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		0FC541582953211300B1C504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC541572953211300B1C504 /* AppDelegate.swift */; };
 		0FC5415A2953211300B1C504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC541592953211300B1C504 /* SceneDelegate.swift */; };
-		0FC5415C2953211300B1C504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5415B2953211300B1C504 /* ViewController.swift */; };
+		0FC5415C2953211300B1C504 /* ScanOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5415B2953211300B1C504 /* ScanOptionsViewController.swift */; };
 		0FC5415F2953211300B1C504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC5415D2953211300B1C504 /* Main.storyboard */; };
 		0FC541612953211400B1C504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC541602953211400B1C504 /* Assets.xcassets */; };
 		0FC541642953211400B1C504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC541622953211400B1C504 /* LaunchScreen.storyboard */; };
 		0FC5416F2953211400B1C504 /* VisionDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5416E2953211400B1C504 /* VisionDemoAppTests.swift */; };
 		0FC541792953211400B1C504 /* VisionDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC541782953211400B1C504 /* VisionDemoAppUITests.swift */; };
 		0FC5417B2953211400B1C504 /* VisionDemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5417A2953211400B1C504 /* VisionDemoAppUITestsLaunchTests.swift */; };
+		0FC5418B29532D4300B1C504 /* ReceiptResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5418A29532D4300B1C504 /* ReceiptResultViewController.swift */; };
+		0FC5418D29532D7A00B1C504 /* TextResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5418C29532D7A00B1C504 /* TextResultViewController.swift */; };
+		0FC5418F2953307A00B1C504 /* RecognizedTextDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5418E2953307A00B1C504 /* RecognizedTextDataSource.swift */; };
+		0FC541912953484300B1C504 /* ScanOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC541902953484300B1C504 /* ScanOptions.swift */; };
+		0FC5419329534A9C00B1C504 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FC5419229534A9C00B1C504 /* README.md */; };
+		0FC541962953522B00B1C504 /* app-demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0FC541952953522B00B1C504 /* app-demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		0FC541542953211300B1C504 /* VisionDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC541572953211300B1C504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FC541592953211300B1C504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0FC5415B2953211300B1C504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0FC5415B2953211300B1C504 /* ScanOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanOptionsViewController.swift; sourceTree = "<group>"; };
 		0FC5415E2953211300B1C504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FC541602953211400B1C504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FC541632953211400B1C504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		0FC541742953211400B1C504 /* VisionDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC541782953211400B1C504 /* VisionDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionDemoAppUITests.swift; sourceTree = "<group>"; };
 		0FC5417A2953211400B1C504 /* VisionDemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionDemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FC5418A29532D4300B1C504 /* ReceiptResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptResultViewController.swift; sourceTree = "<group>"; };
+		0FC5418C29532D7A00B1C504 /* TextResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextResultViewController.swift; sourceTree = "<group>"; };
+		0FC5418E2953307A00B1C504 /* RecognizedTextDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizedTextDataSource.swift; sourceTree = "<group>"; };
+		0FC541902953484300B1C504 /* ScanOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanOptions.swift; sourceTree = "<group>"; };
+		0FC5419229534A9C00B1C504 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0FC541952953522B00B1C504 /* app-demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "app-demo.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				0FC541562953211300B1C504 /* VisionDemoApp */,
+				0FC54194295351B700B1C504 /* Screenshots */,
 				0FC5416D2953211400B1C504 /* VisionDemoAppTests */,
 				0FC541772953211400B1C504 /* VisionDemoAppUITests */,
 				0FC541552953211300B1C504 /* Products */,
@@ -99,13 +112,14 @@
 		0FC541562953211300B1C504 /* VisionDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				0FC5418729532C5300B1C504 /* Model */,
+				0FC5418829532C5F00B1C504 /* View */,
+				0FC5418929532C6800B1C504 /* Controller */,
 				0FC541572953211300B1C504 /* AppDelegate.swift */,
 				0FC541592953211300B1C504 /* SceneDelegate.swift */,
-				0FC5415B2953211300B1C504 /* ViewController.swift */,
-				0FC5415D2953211300B1C504 /* Main.storyboard */,
 				0FC541602953211400B1C504 /* Assets.xcassets */,
-				0FC541622953211400B1C504 /* LaunchScreen.storyboard */,
 				0FC541652953211400B1C504 /* Info.plist */,
+				0FC5419229534A9C00B1C504 /* README.md */,
 			);
 			path = VisionDemoApp;
 			sourceTree = "<group>";
@@ -125,6 +139,42 @@
 				0FC5417A2953211400B1C504 /* VisionDemoAppUITestsLaunchTests.swift */,
 			);
 			path = VisionDemoAppUITests;
+			sourceTree = "<group>";
+		};
+		0FC5418729532C5300B1C504 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FC5418E2953307A00B1C504 /* RecognizedTextDataSource.swift */,
+				0FC541902953484300B1C504 /* ScanOptions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FC5418829532C5F00B1C504 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FC541622953211400B1C504 /* LaunchScreen.storyboard */,
+				0FC5415D2953211300B1C504 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FC5418929532C6800B1C504 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0FC5415B2953211300B1C504 /* ScanOptionsViewController.swift */,
+				0FC5418A29532D4300B1C504 /* ReceiptResultViewController.swift */,
+				0FC5418C29532D7A00B1C504 /* TextResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0FC54194295351B700B1C504 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				0FC541952953522B00B1C504 /* app-demo.gif */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FC541642953211400B1C504 /* LaunchScreen.storyboard in Resources */,
+				0FC541962953522B00B1C504 /* app-demo.gif in Resources */,
 				0FC541612953211400B1C504 /* Assets.xcassets in Resources */,
+				0FC5419329534A9C00B1C504 /* README.md in Resources */,
 				0FC5415F2953211300B1C504 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +310,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FC5415C2953211300B1C504 /* ViewController.swift in Sources */,
+				0FC5415C2953211300B1C504 /* ScanOptionsViewController.swift in Sources */,
+				0FC5418F2953307A00B1C504 /* RecognizedTextDataSource.swift in Sources */,
+				0FC541912953484300B1C504 /* ScanOptions.swift in Sources */,
 				0FC541582953211300B1C504 /* AppDelegate.swift in Sources */,
+				0FC5418B29532D4300B1C504 /* ReceiptResultViewController.swift in Sources */,
+				0FC5418D29532D7A00B1C504 /* TextResultViewController.swift in Sources */,
 				0FC5415A2953211300B1C504 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +496,8 @@
 				DEVELOPMENT_TEAM = DHWBR7WZQY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VisionDemoApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access in order to scan text";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library in order to retrieve stored photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -468,6 +526,8 @@
 				DEVELOPMENT_TEAM = DHWBR7WZQY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VisionDemoApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access in order to scan text";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library in order to retrieve stored photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
